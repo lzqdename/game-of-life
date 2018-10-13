@@ -40,6 +40,14 @@
 
                             </formats>
                         </configuration>
+                  <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>cobertura</goal>
+                        </goals>
+                    </execution>
+                </executions>
                     </plugin>
             
             <plugin>
